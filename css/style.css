@@ -39,6 +39,7 @@ body {
 .header-section .image-logo h2 {
   color: #fff;
   font-family: "Libre Baskerville", serif;
+  font-size: 2em;
 }
 .header-section .menu ul {
   list-style: none;
@@ -50,18 +51,28 @@ body {
 .header-section .menu ul li a {
   text-decoration: none;
   color: #fff;
+  font-size: 1.1em;
+  margin-right: 15px;
+}
+.header-section .notification span i {
+  color: #fff;
+  margin-left: 20px;
+  cursor: pointer;
 }
 .left-section {
   /* background: lawngreen; */
   grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 2em;
   /* height: 100%; */
 }
-.left-section .icon {
+.left-section .icon span {
   display: flex;
-  flex-direction: column;
-  /* align-items: flex-end;
-  justify-content: flex-end; */
+  margin-top: 5em;
+}
+.left-section .icon span i {
   color: #fff;
 }
 .main-section {
@@ -72,6 +83,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   font-family: "Libre Baskerville", serif;
+  margin-left: 30px;
 }
 .main-section h1 {
   color: #fff;
